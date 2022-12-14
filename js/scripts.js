@@ -1,50 +1,40 @@
-// gsap.from("#name", {
-//   x: -150,
-//   ease: "back",
-// });
-
-// gsap.from("#btn-name", {
-//   x: 150,
-//   opacity: "0",
-//   ease: "back",
-// });
-
 let t1 = gsap.timeline({ repeat: 0, yoyo: false });
 
 t1.from("#name-title", {
   duration: 0.5,
-  x: -150,
-  ease: "back",
+  x: -50,
 });
-
 t1.from("#btn-name", {
   duration: 0.5,
-  x: 150,
+  x: 50,
   opacity: "0",
-  ease: "back",
+});
+t1.to("#title", {
+  duration: 3.5,
+  text: "DanteHarold",
 });
 
 let t2 = gsap.timeline({ repeat: 0, yoyo: false });
 
 t2.from("#shape-img", {
-  duration: 1,
+  duration: 0.8,
   rotation: 180,
-  x: -750,
-  ease: "ease",
+  x: -650,
 });
 t2.from("#about-title", {
+  duration: 0.8,
   opacity: "0",
-  duration: 0.5,
-  // rotation: 180,
-  x: 50,
-  ease: "ease",
+  // x: 20,
 });
 t2.from("#about-bottom", {
   opacity: "0",
   duration: 0.5,
-  // rotation: 180,
-  x: 50,
-  ease: "ease",
+  // x: 20,
+});
+
+t2.from("#about-paragraph", {
+  duration: 0.5,
+  opacity: "0",
 });
 
 ScrollTrigger.create({
@@ -56,38 +46,18 @@ ScrollTrigger.create({
   pin: false,
   // markers: true,
 });
-let t3 = gsap.timeline({ repeat: 0, yoyo: false });
-t3.from("#about-paragraph", {
-  opacity: "0",
-  duration: 2.5,
-  // y: -150,
-  ease: "ease",
-});
-ScrollTrigger.create({
-  animation: t3,
-  trigger: "#about",
-  start: "top center",
-  // end: "+=0",
-  scrub: false,
-  pin: false,
-  // markers: true,
-});
+
 let t4 = gsap.timeline({ repeat: 0, yoyo: false });
 t4.from("#portfolio-title", {
+  duration: 0.8,
   opacity: "0",
-  duration: 0.5,
-  // rotation: 180,
-  x: 50,
-  ease: "ease",
+  // x: 20,
 });
 t4.from("#portfolio-bottom", {
-  opacity: "0",
   duration: 0.5,
-  // rotation: 180,
-  x: 50,
-  ease: "ease",
+  opacity: "0",
+  // x: 20,
 });
-gsap.registerPlugin(MotionPathPlugin);
 
 ScrollTrigger.create({
   animation: t4,
@@ -101,25 +71,18 @@ ScrollTrigger.create({
 
 let t5 = gsap.timeline({ repeat: 0, yoyo: false });
 t5.from("#contact-title", {
+  duration: 0.8,
   opacity: "0",
-  duration: 0.5,
-  // rotation: 180,
-  x: 50,
-  ease: "ease",
+  // x: 20,
 });
 t5.from("#contact-bottom", {
-  opacity: "0",
   duration: 0.5,
-  // rotation: 180,
-  x: 50,
-  ease: "ease",
+  opacity: "0",
+  // x: 20,
 });
 t5.from("#contact-subtitle", {
   opacity: "0",
-  duration: 1.5,
-  // rotation: 180,
-  // x: 50,
-  ease: "ease",
+  duration: 1,
 });
 
 ScrollTrigger.create({
@@ -130,12 +93,6 @@ ScrollTrigger.create({
   scrub: false,
   pin: false,
   // markers: true,
-});
-
-gsap.to("#title", {
-  duration: 3.5,
-  text: "DanteHarold",
-  delay: 1,
 });
 
 ((d) => {
