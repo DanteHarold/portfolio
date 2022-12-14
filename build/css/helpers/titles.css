@@ -1,0 +1,7 @@
+.title::after {
+  position: absolute;
+  content: "";
+  background-color: red;
+}
+
+/*# sourceMappingURL=titles.css.map */

@@ -1,0 +1,16 @@
+{
+  "name": "portafolio2022",
+  "version": "1.0.0",
+  "description": "Mi Portafolio 2022",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass": "sass --watch src/scss:build/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DanteHarold",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.56.1"
+  }
+}

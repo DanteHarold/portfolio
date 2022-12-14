@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web</title>
+    <link rel="stylesheet" href="./build/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div
+      class="container-fluid bg-primary min-vh-100 text-white d-flex flex-column justify-content-center align-items-center display-5"
+    >
+      <p id="name-title">
+        Hi, I'm <span class="text-secondary" id="title"> Harold HQ </span>
+      </p>
+
+      <p id="name-title">I'm Web Developer</p>
+      <a
+        id="btn-name"
+        href="#about"
+        class="btn-home btn btn-outline-light rounded-0 py-2 px-3"
+      >
+        Let's Go</a
+      >
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-sticky">
+      <div class="container-xl">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="about">
+      <div
+        class="bg-white min-vh-100 container-xl justify-content-center align-content-center"
+      >
+        <div class="row">
+          <div class="col text-center text-success my-5" id="about-title">
+            <h2 class="display-4 fw-normal d-inline text-primary">About</h2>
+            <div
+              id="about-bottom"
+              class="bg-primary text-center mx-auto mt-1"
+              style="width: 110px; height: 3px"
+            ></div>
+          </div>
+        </div>
+        <div class="row mt-0">
+          <div
+            class="col-md-6 d-flex flex-column justify-content-center align-items-center"
+          >
+            <div class="shape-img" id="shape-img">
+              <img
+                src="https://res.cloudinary.com/danteharold/image/upload/v1668718674/lrydbj7loarxgzohnak4.webp"
+                alt=""
+                class="img-fluid"
+                style="width: 250px; height: auto"
+              />
+            </div>
+            <h3 class="my-4">Who's this Guy</h3>
+            <p class="text-center px-5" id="about-paragraph">
+              I'm a Web Developer, I have serious passion for create new things
+              , animations and creating intuitive, dynamic user experiences.
+              <span> Let's make something special. </span>
+            </p>
+          </div>
+          <div
+            class="col-md-6 d-flex justify-content-center flex-column align-items-center"
+          >
+            <h3 class="text-success">Skills</h3>
+            <nav>
+              <ul class="text-start m-0 p-0">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>PHP</li>
+                <li>JAVA</li>
+                <li>BOOTSTRAP 5</li>
+                <li>FIGMA</li>
+              </ul>
+            </nav>
+            <h3 class="text-success mt-2">Hobbies</h3>
+            <nav class="my-1 mb-5">
+              <ul class="text-start m-0 p-0">
+                <li>Music</li>
+                <li>Movies & Series</li>
+                <li>Cats</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="bg-light mb-5">
+      <div
+        class="min-vh-100 container-xl d-flex flex-column justify-content-center align-content-center px-0 px-md-5 mb-5"
+      >
+        <div class="row m-0">
+          <div
+            class="col text-center text-success mt-5 mb-5 mt-md-2"
+            id="portfolio-title"
+          >
+            <h2 class="text-primary display-4 fw-normal d-inline pb-1">
+              Projects
+            </h2>
+            <div
+              id="portfolio-bottom"
+              class="bg-primary text-center mx-auto mt-1"
+              style="width: 110px; height: 3px"
+            ></div>
+          </div>
+        </div>
+        <div class="container-cards">
+          <!-- <div class="col-md-4 position-relative">
+            <img
+              src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+              alt=""
+              class="img-fluid"
+            />
+            <div
+              class="trabajo-card_info position-absolute d-flex justify-content-center align-items-center text-center"
+            >
+              <div>
+                <p class="text-primary fw-bold mb-0 pb-0">Proyecto 1</p>
+                <p class="text-secondary pt-0 mt-0">JS/Sass</p>
+                <a href="" class="btn btn-outline-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+              alt=""
+              class="img-fluid"
+            />
+          </div> -->
+          <div href="#trabajo-1" class="portfolio-card text-center">
+            <img
+              src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+              alt="trabajo 1"
+            />
+            <aside class="portfolio-card-info">
+              <div>
+                <h3 class="text-primary fw-bold mb-0 pb-0">Proyecto 1</h3>
+                <p class="text-secondary fw-normal mt-0 pt-0">JS/SASS</p>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary mt-3 rounded-0"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal1"
+                >
+                  Learn More
+                </button>
+              </div>
+            </aside>
+          </div>
+          <div href="#trabajo-2" class="portfolio-card text-center">
+            <img
+              src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+              alt="trabajo 1"
+            />
+            <aside class="portfolio-card-info">
+              <div>
+                <h3 class="text-primary fw-bold mb-0 pb-0">Proyecto 2</h3>
+                <p class="text-secondary fw-normal mt-0 pt-0">JS/SASS</p>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary mt-3 rounded-0"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal2"
+                >
+                  Learn More
+                </button>
+              </div>
+            </aside>
+          </div>
+          <div href="#trabajo-3" class="portfolio-card text-center">
+            <img
+              src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+              alt="trabajo 1"
+            />
+            <aside class="portfolio-card-info">
+              <div>
+                <h3 class="text-primary fw-bold mb-0 pb-0">Proyecto 3</h3>
+                <p class="text-secondary fw-normal mt-0 pt-0">JS/SASS</p>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary mt-3 rounded-0"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal3"
+                >
+                  Learn More
+                </button>
+              </div>
+            </aside>
+          </div>
+          <div href="#trabajo-4" class="portfolio-card text-center">
+            <img
+              src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+              alt="trabajo 1"
+            />
+            <aside class="portfolio-card-info">
+              <div>
+                <h3 class="text-primary fw-bold mb-0 pb-0">Proyecto 4</h3>
+                <p class="text-secondary fw-normal mt-0 pt-0">JS/SASS</p>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary mt-3 rounded-0"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal4"
+                >
+                  Learn More
+                </button>
+              </div>
+            </aside>
+          </div>
+          <div href="#trabajo-5" class="portfolio-card text-center">
+            <img
+              src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+              alt="trabajo 1"
+            />
+            <aside class="portfolio-card-info">
+              <div>
+                <h3 class="text-primary fw-bold mb-0 pb-0">Proyecto 5</h3>
+                <p class="text-secondary fw-normal mt-0 pt-0">JS/SASS</p>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary mt-3 rounded-0"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal5"
+                >
+                  Learn More
+                </button>
+              </div>
+            </aside>
+          </div>
+          <div href="#trabajo-6" class="portfolio-card text-center">
+            <img
+              src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+              alt="trabajo 1"
+            />
+            <aside class="portfolio-card-info">
+              <div>
+                <h3 class="text-primary fw-bold mb-0 pb-0">Proyecto 6</h3>
+                <p class="text-secondary fw-normal mt-0 pt-0">JS/SASS</p>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary mt-3 rounded-0"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal6"
+                >
+                  Learn More
+                </button>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal1"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body mt-4">
+              <p class="text-primary mb-0 pb-0 ps-3 fw-bold">Proyecto 1</p>
+              <p class="text-primary text-muted mt-0 pt-0 ps-3 fs-5 fw-light">
+                JS/SASS
+              </p>
+              <p class="border-top p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                facere cumque qui debitis ut fugit, adipisci dicta, fugiat,
+                maiores neque repudiandae
+              </p>
+              <a href="" class="btn btn-secondary text-white ms-3 rounded-0"
+                >View Site</a
+              >
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div
+              id="carouselExampleIndicators2"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body mt-4">
+              <p class="text-primary mb-0 pb-0 ps-3 fw-bold">Proyecto 2</p>
+              <p class="text-primary text-muted mt-0 pt-0 ps-3 fs-5 fw-light">
+                JS/SASS
+              </p>
+              <p class="border-top p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                facere cumque qui debitis ut fugit, adipisci dicta, fugiat,
+                maiores neque repudiandae
+              </p>
+              <a href="" class="btn btn-secondary text-white ms-3 rounded-0"
+                >View Site</a
+              >
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal3"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel3"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div
+              id="carouselExampleIndicators3"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators3"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators3"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body mt-4">
+              <p class="text-primary mb-0 pb-0 ps-3 fw-bold">Proyecto 3</p>
+              <p class="text-primary text-muted mt-0 pt-0 ps-3 fs-5 fw-light">
+                JS/SASS
+              </p>
+              <p class="border-top p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                facere cumque qui debitis ut fugit, adipisci dicta, fugiat,
+                maiores neque repudiandae
+              </p>
+              <a href="" class="btn btn-secondary text-white ms-3 rounded-0"
+                >View Site</a
+              >
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal4"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel4"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div
+              id="carouselExampleIndicators4"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators4"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators4"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body mt-4">
+              <p class="text-primary mb-0 pb-0 ps-3 fw-bold">Proyecto 4</p>
+              <p class="text-primary text-muted mt-0 pt-0 ps-3 fs-5 fw-light">
+                JS/SASS
+              </p>
+              <p class="border-top p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                facere cumque qui debitis ut fugit, adipisci dicta, fugiat,
+                maiores neque repudiandae
+              </p>
+              <a href="" class="btn btn-secondary text-white ms-3 rounded-0"
+                >View Site</a
+              >
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal5"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel5"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div
+              id="carouselExampleIndicators5"
+              class="carousel slide"
+              data-bs-ride="carousel5"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators5"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators5"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body mt-4">
+              <p class="text-primary mb-0 pb-0 ps-3 fw-bold">Proyecto 5</p>
+              <p class="text-primary text-muted mt-0 pt-0 ps-3 fs-5 fw-light">
+                JS/SASS
+              </p>
+              <p class="border-top p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                facere cumque qui debitis ut fugit, adipisci dicta, fugiat,
+                maiores neque repudiandae
+              </p>
+              <a href="" class="btn btn-secondary text-white ms-3 rounded-0"
+                >View Site</a
+              >
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal6"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel6"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div
+              id="carouselExampleIndicators6"
+              class="carousel slide"
+              data-bs-ride="carousel6"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://res.cloudinary.com/danteharold/image/upload/v1663361294/cmjmgfwj8tfwwchxnoup.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators6"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators6"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body mt-4">
+              <p class="text-primary mb-0 pb-0 ps-3 fw-bold">Proyecto 6</p>
+              <p class="text-primary text-muted mt-0 pt-0 ps-3 fs-5 fw-light">
+                JS/SASS
+              </p>
+              <p class="border-top p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                facere cumque qui debitis ut fugit, adipisci dicta, fugiat,
+                maiores neque repudiandae
+              </p>
+              <a href="" class="btn btn-secondary text-white ms-3 rounded-0"
+                >View Site</a
+              >
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="contact" class="bg-primary">
+      <div
+        class="container-xl justify-content-center align-content-center pt-4 pb-5"
+      >
+        <div class="row">
+          <div class="col text-center text-success my-3" id="contact-title">
+            <h2 class="display-4 fw-normal text-white d-inline pb-1">
+              Contact
+            </h2>
+            <div
+              id="contact-bottom"
+              class="bg-white text-center mx-auto mt-1"
+              style="width: 110px; height: 3px"
+            ></div>
+          </div>
+          <p
+            class="text-success text-center fw-light my-4 my-md-5 fs-5"
+            id="contact-subtitle"
+          >
+            Have a Question or Want to Work Together
+          </p>
+          <div class="col-md-6 mx-auto">
+            <form
+              action="https://formsubmit.co/danteharold.dev@gmail.com"
+              method="POST"
+              id="contact-form"
+              class="form-contact d-flex flex-column"
+            >
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                class="p-2 mb-2 bg-dark text-white border-0"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                class="p-2 mb-2 bg-dark text-white border-0"
+                required
+              />
+              <textarea
+                name="comments"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Message"
+                class="mb-2 ps-2 bg-dark text-white border-0"
+                style="resize: none"
+                required
+              ></textarea>
+              <div
+                id="contact-form-loader"
+                class="contact-form-loader text-center d-none my-4"
+              >
+                <img src="./assets/svg/loader.svg" alt="Enviando" />
+              </div>
+              <button
+                class="w-25 ms-auto btn-outline-secondary bg-transparent text-white p-2 px-0 mx-0 border-1"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="mensaje-final"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-primary text-white">
+          <div class="mensaje-final_text modal-body text-center">
+            Gracias! <br />
+            Por sus Comentarios :)
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark">
+      <div class="container-xl">
+        <div class="row pt-5">
+          <div class="col-md-6 mx-auto text-center">
+            <a
+              href="https://github.com/DanteHarold"
+              class="btn btn-primary py-2 mx-2 px-3 fs-4"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/DanteHarold"
+              class="btn btn-primary py-2 mx-2 px-3 fs-4"
+              target="_blank"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href="https://github.com/DanteHarold"
+              class="btn btn-primary py-2 mx-2 px-3 fs-4"
+              target="_blank"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+          <div class="col-12 text-center py-4">
+            <p class="text-white text-muted">
+              DanteHarold <span class="text-secondary"> ©2022</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+      integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
